@@ -8,6 +8,18 @@ Answer Generation 1 (Substantial): Explained what concepts and tools from module
 
 I had cleared that using AI is ok as long as provide explanation on how I generated and created my code.
 
-AI Change:
+AI Change--> chatGPT4
 I went to chatGPT and uploaded the file and the assignment instructions.
 It was not using the method from class and not even using VBA so I decided to do a quick pivot.
+The code was not functioning.
+
+AI Change --> Perplexity Ai
+Did not allow for file uploaded. 
+I decided that to goal set what I wanted the AI to achieve and break it down to make that achievement likely
+  a. Uses the concepts we learned in class
+  b. readable/reasonable code that was understandable and useable for reference later
+  c. separate the functionalities of the code into 3 modules to make debugging easier
+
+Prompt 1: [Inserted Assignment Instructions] + must be completed in VBA
+-code generated-
+Prompt 2: [Inserted the Xpert Learning Assitant Answers of how this assignment is supposed to be completed]
