@@ -14,12 +14,25 @@ It was not using the method from class and not even using VBA so I decided to do
 The code was not functioning.
 
 AI Change --> Perplexity Ai
-Did not allow for file uploaded. 
+Did not allow for file upload.
+
+Prompt 1: [Inserted Assignment Instructions] + must be completed in VBA
+-code generated- (Too much to work with)
+
 I decided that to goal set what I wanted the AI to achieve and break it down to make that achievement likely
   a. Uses the concepts we learned in class
   b. readable/reasonable code that was understandable and useable for reference later
   c. separate the functionalities of the code into 3 modules to make debugging easier
 
-Prompt 1: [Inserted Assignment Instructions] + must be completed in VBA
--code generated-
 Prompt 2: [Inserted the Xpert Learning Assitant Answers of how this assignment is supposed to be completed]
+(better but not enough)
+
+Prompt 3: Inserted [1st 1/3 of instructions] +  [Congratulations on completing Module 2]
+(Code runs with bugs)
+
+Prompt 4: Debug at line x error "type mismatch"
+(wasn't working)
+
+AI Change --> ChatGPT4
+Prompt: [Inserted code] + Debug at line x error "type mismatch"
+
