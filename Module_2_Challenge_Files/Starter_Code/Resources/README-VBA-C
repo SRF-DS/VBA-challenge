@@ -34,5 +34,40 @@ Prompt 4: Debug at line x error "type mismatch"
 (wasn't working)
 
 AI Change --> ChatGPT4
-Prompt: [Inserted code] + Debug at line x error "type mismatch"
+Prompt: [Inserted code] + Debug "mismatch issue dateValue = ws.Cells(dataRow, 2).Value"
+with some fiddling this help me fix this issue
+
+Prompt: Debug runtime error '13' type mismatch
+(Didn't work)
+
+I did some fiddling around with changing data types variable assignments and it finally worked the first section of code!
+
+Completed part 1/3
+
+AI Change --> Xpert learning assistant
+Prompt: how to complete conditional formatting portion. 
+
+AI Change --> Perplexity
+
+Prompt: Inserted [2/3 of instructions] +  [Answer from Xpert learning assistant]
+(Code runs near perfect but incomplete)
+some  minor debugging to my code
+
+Prompt: Inserted [Debugged code] + [Conditional Formatting rubric] + described where certain columns are in my sheets
+(Works perfect!)
+
+Completed part 2/3
+
+Prompt: [Calculated Values instructions] + [Calculated values rubric]
+(runs but number are wrong and not matching)
+
+Prompt: Debug at line x "runtime error 91. Object variable or with block variable not set. ws.Cells(2, 16).Value = tickerRange.Cells(increaseTickerCell.Row - 1, 1).Value"
+(New issue tickers not populating)
+(New issue incorrect ticker values)
+
+Discovered that since some are stored as percentages it messes with my numbers and I ask it to fix it but the AI generated fixes were too cumbersome.
+Realize that all the numbers were overshot by 100 so I hard coded to multiply by .001. 
+Completed 3/3
+
+Thank you for reviewing my processes.
 
